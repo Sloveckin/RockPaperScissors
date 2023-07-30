@@ -1,5 +1,5 @@
 package exception;
-public class ConfigException extends GameExcepton {
+public class ConfigException extends GameException {
 
     public ConfigException(final String message) {
         super(message);

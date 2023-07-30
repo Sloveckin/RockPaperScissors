@@ -12,7 +12,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class FileConfigReader implements ConfigReader {
-
     public static final String FILE = "Config.txt";
 
     @Override
@@ -37,7 +36,6 @@ public class FileConfigReader implements ConfigReader {
         }
     }
 
-
     private static void checkItems(final Map<String, Set<String>> map, final String a, final String b)
             throws ConfigException {
         if (a.equals(b)) {
@@ -48,5 +46,4 @@ public class FileConfigReader implements ConfigReader {
             throw new ConfigException(String.format("Unacceptable %s > %s and %s > %s", a, b, b, a));
         }
     }
-
 }

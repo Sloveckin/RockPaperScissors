@@ -1,6 +1,5 @@
 package player;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class RandomPlayer implements Player {
