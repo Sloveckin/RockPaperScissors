@@ -25,16 +25,12 @@ public class Game {
             System.out.println("Player2: " + move2);
 
 
-            if (map.get(move1) != null) {
-                if (map.get(move1).contains(move2)) {
-                    return 0;
-                }
+            if (map.get(move1) != null && map.get(move1).contains(move2)) {
+                return 0;
             }
 
-            if (map.get(move2) != null) {
-                if (map.get(move2).contains(move1)) {
-                    return 1;
-                }
+            if (map.get(move2) != null && map.get(move2).contains(move1)) {
+                return 1;
             }
             System.out.println("Draw!");
         }

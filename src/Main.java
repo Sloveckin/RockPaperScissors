@@ -36,7 +36,6 @@ public class Main {
         while (true) {
             final String input = scanner.nextLine();
             if (input.equals("Yes")) {
-                flag = false;
                 break;
             } else if (input.equals("No")) {
                 flag = true;

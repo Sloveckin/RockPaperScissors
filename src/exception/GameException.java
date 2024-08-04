@@ -1,8 +1,6 @@
 package exception;
 
 public class GameException extends Exception {
-    public GameException() {
-    }
 
     public GameException(final String message) {
         super(message);
